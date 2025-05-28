@@ -18,6 +18,11 @@ int main(){
                 m[i][j]= 0;
             }
         }
+        int Q_x = b % 8,Q_y = b / 8,q_x = c % 8,q_y = c / 8;
+        if(Q_x != q_x || Q_y != q_y){ // condition two
+            cout<<"Illegal move"<<endl;
+        }
+        int K_x = a % 8,K_y = a / 8;
         
     }
 }
