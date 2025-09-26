@@ -6,5 +6,8 @@
         "workbench.input.interactive": true,
         "vscode.audioPreview": true,
         "default": true
+    },
+    "files.associations": {
+        "iostream": "cpp"
     }
 }
